@@ -1,0 +1,227 @@
+/home/more/anaconda3/envs/commonsense/bin/python3 /home/more/qg/few-shot/CADA-VAE-PyTorch-master/model/single_experiment.py
+/home/more/anaconda3/envs/commonsense/lib/python3.8/site-packages/scipy/__init__.py:138: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.23.3)
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion} is required for this version of "
+***
+73
+The current working directory is
+/home/more/qg/few-shot/CADA-VAE-PyTorch-master/model
+Project Directory:
+/home/more/qg/few-shot/CADA-VAE-PyTorch-master
+Data Path
+/home/more/qg/few-shot/CADA-VAE-PyTorch-master/data
+_____
+/home/more/qg/few-shot/CADA-VAE-PyTorch-master/data/CUB/res101.mat
+resnet_features 2048
+attributes 312
+/home/more/anaconda3/envs/commonsense/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+train for reconstruction
+epoch 0 | iter 0	 | loss 8048.
+epoch 0 | iter 50	 | loss 5145.
+epoch 0 | iter 100	 | loss 4951.
+epoch 1 | iter 0	 | loss 4370.
+epoch 1 | iter 50	 | loss 4687.
+epoch 1 | iter 100	 | loss 4174.
+epoch 2 | iter 0	 | loss 4337.
+epoch 2 | iter 50	 | loss 3818.
+epoch 2 | iter 100	 | loss 3801.
+epoch 3 | iter 0	 | loss 3696.
+epoch 3 | iter 50	 | loss 3689.
+epoch 3 | iter 100	 | loss 3763.
+epoch 4 | iter 0	 | loss 3801.
+epoch 4 | iter 50	 | loss 3633.
+epoch 4 | iter 100	 | loss 3568.
+epoch 5 | iter 0	 | loss 3855.
+epoch 5 | iter 50	 | loss 3502.
+epoch 5 | iter 100	 | loss 3606.
+epoch 6 | iter 0	 | loss 3550.
+epoch 6 | iter 50	 | loss 3351.
+epoch 6 | iter 100	 | loss 3287.
+epoch 7 | iter 0	 | loss 3588.
+epoch 7 | iter 50	 | loss 3348.
+epoch 7 | iter 100	 | loss 3707.
+epoch 8 | iter 0	 | loss 3623.
+epoch 8 | iter 50	 | loss 3586.
+epoch 8 | iter 100	 | loss 3704.
+epoch 9 | iter 0	 | loss 3434.
+epoch 9 | iter 50	 | loss 3501.
+epoch 9 | iter 100	 | loss 3700.
+epoch 10 | iter 0	 | loss 3434.
+epoch 10 | iter 50	 | loss 3394.
+epoch 10 | iter 100	 | loss 3291.
+epoch 11 | iter 0	 | loss 3421.
+epoch 11 | iter 50	 | loss 3639.
+epoch 11 | iter 100	 | loss 3452.
+epoch 12 | iter 0	 | loss 3406.
+epoch 12 | iter 50	 | loss 3666.
+epoch 12 | iter 100	 | loss 3613.
+epoch 13 | iter 0	 | loss 3620.
+epoch 13 | iter 50	 | loss 3615.
+epoch 13 | iter 100	 | loss 3431.
+epoch 14 | iter 0	 | loss 3475.
+epoch 14 | iter 50	 | loss 3767.
+epoch 14 | iter 100	 | loss 3416.
+epoch 15 | iter 0	 | loss 3497.
+epoch 15 | iter 50	 | loss 3457.
+epoch 15 | iter 100	 | loss 3405.
+epoch 16 | iter 0	 | loss 3659.
+epoch 16 | iter 50	 | loss 3657.
+epoch 16 | iter 100	 | loss 3434.
+epoch 17 | iter 0	 | loss 3231.
+epoch 17 | iter 50	 | loss 3605.
+epoch 17 | iter 100	 | loss 3460.
+epoch 18 | iter 0	 | loss 3590.
+epoch 18 | iter 50	 | loss 3602.
+epoch 18 | iter 100	 | loss 3615.
+epoch 19 | iter 0	 | loss 3602.
+epoch 19 | iter 50	 | loss 3485.
+epoch 19 | iter 100	 | loss 3485.
+================  transfer features from test to train ==================
+size before
+torch.Size([2967, 2048])
+torch.Size([7057, 2048])
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+dict_keys(['resnet_features', 'attributes', 'labels'])
+torch.Size([56, 2048])
+torch.Size([60, 2048])
+torch.Size([59, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([59, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([50, 2048])
+torch.Size([60, 2048])
+torch.Size([59, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([59, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([59, 2048])
+torch.Size([59, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([58, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([59, 2048])
+torch.Size([60, 2048])
+torch.Size([59, 2048])
+torch.Size([59, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([53, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([59, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+torch.Size([60, 2048])
+new_test_unseen.size():  torch.Size([2717, 2048])
+new_test_unseen_label.size():  torch.Size([2717])
+new_train_unseen.size():  torch.Size([250, 2048])
+new_train_unseen_label.size():  torch.Size([250])
+>> num novel classes: 50
+mode: zsl
+DEVICE
+cuda
+self.input_dim
+64
+...
+[0.0]  acc=0.4006 
+/home/more/qg/few-shot/CADA-VAE-PyTorch-master/model/vaemodel.py:436: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  history.append([0, torch.tensor(cls.acc).item(), 0])
+[1.0]  acc=0.5166 
+[2.0]  acc=0.5446 
+[3.0]  acc=0.5669 
+[4.0]  acc=0.5859 
+[5.0]  acc=0.5946 
+[6.0]  acc=0.6085 
+[7.0]  acc=0.6192 
+[8.0]  acc=0.6248 
+[9.0]  acc=0.6351 
+[10.0]  acc=0.6363 
+[11.0]  acc=0.6418 
+[12.0]  acc=0.6473 
+[13.0]  acc=0.6506 
+[14.0]  acc=0.6514 
+[15.0]  acc=0.6544 
+[16.0]  acc=0.6557 
+[17.0]  acc=0.6561 
+[18.0]  acc=0.6569 
+[19.0]  acc=0.6577 
+[20.0]  acc=0.6584 
+[21.0]  acc=0.6610 
+[22.0]  acc=0.6578 
+[23.0]  acc=0.6544 
+[24.0]  acc=0.6551 
+[25.0]  acc=0.6589 
+[26.0]  acc=0.6566 
+[27.0]  acc=0.6559 
+[28.0]  acc=0.6552 
+[29.0]  acc=0.6549 
+[30.0]  acc=0.6533 
+[31.0]  acc=0.6529 
+[32.0]  acc=0.6537 
+[33.0]  acc=0.6537 
+[34.0]  acc=0.6534 
+[35.0]  acc=0.6541 
+[36.0]  acc=0.6548 
+[37.0]  acc=0.6533 
+[38.0]  acc=0.6559 
+[39.0]  acc=0.6556 
+[40.0]  acc=0.6545 
+[41.0]  acc=0.6542 
+[42.0]  acc=0.6550 
+[43.0]  acc=0.6549 
+[44.0]  acc=0.6561 
+[45.0]  acc=0.6557 
+[46.0]  acc=0.6553 
+[47.0]  acc=0.6564 
+[48.0]  acc=0.6568 
+[49.0]  acc=0.6564 
+[50.0]  acc=0.6561 
+[51.0]  acc=0.6557 
+[52.0]  acc=0.6553 
+[53.0]  acc=0.6546 
+[54.0]  acc=0.6539 
+[55.0]  acc=0.6542 
+[56.0]  acc=0.6542 
+[57.0]  acc=0.6531 
+[58.0]  acc=0.6535 
+[59.0]  acc=0.6531 
+[60.0]  acc=0.6540 
+[61.0]  acc=0.6543 
+[62.0]  acc=0.6532 
+[63.0]  acc=0.6543 
+[64.0]  acc=0.6536 
+[65.0]  acc=0.6525 
+[66.0]  acc=0.6521 
+[67.0]  acc=0.6532 
+[68.0]  acc=0.6522 
+[69.0]  acc=0.6518 
+[70.0]  acc=0.6529 
+[71.0]  acc=0.6519 
+[72.0]  acc=0.6508 
+0.6507847309112549
+/home/more/qg/few-shot/CADA-VAE-PyTorch-master/model/vaemodel.py:442: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return 0, torch.tensor(cls.acc).item(), 0, history
+>> saved
+
+Process finished with exit code 0
+
